@@ -7,6 +7,7 @@ function Portfolio() {
 	<li><a href="#">About</a></li>
 	<li><a href="#">Contact</a></li>
       </header>
+
       <div>
         hero
         <div>categories</div>
