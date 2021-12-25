@@ -1,5 +1,7 @@
 export default function Navbar() {
 	return (
-		<div>Test</div>
+		<nav className="">
+			Test
+		</nav>
 	)
 };
