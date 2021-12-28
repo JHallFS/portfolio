@@ -1,3 +1,11 @@
+body {
+  background-color: #c5d1eb;
+}
 
+nav {
+  background-color: #5a7684;
+  display: flex;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=style.css.map */
