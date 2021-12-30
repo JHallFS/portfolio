@@ -4,11 +4,23 @@ $cadet: rgba(90, 118, 132, 1);
 $feldgrau: rgba(57, 91, 80, 1);
 $phthalo-green: rgba(31, 47, 22, 1);
 
-:root {
-	margin: 0;
-	padding: 0;
+body {
+	background-color: $periwinkle-crayola;
 };
 
-body {
-       background-color: $cadet;
-};       
+nav {
+	background-color: $cadet;
+	display: flex;
+	justify-content: space-around;
+	ul {
+		list-style: none;
+		display: flex;
+		li {
+			padding: 5px;
+			button {
+				background-color: $cadet;
+				border-radius: 10px;
+			}
+		}
+	}
+};

@@ -1,9 +1,11 @@
 import './css/style.css'
 import Navbar from './components/navbar'
+import Hero from './components/hero'
 function Portfolio() {
   return (
     <div>
-	 <Navbar />
+	  <Navbar />
+	  <Hero />
     </div>
   );
 }
