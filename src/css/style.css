@@ -1,22 +1,3 @@
-body {
-  background-color: #c5d1eb;
-}
 
-nav {
-  background-color: #5a7684;
-  display: flex;
-  justify-content: space-around;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-}
-nav ul li {
-  padding: 5px;
-}
-nav ul li button {
-  background-color: #5a7684;
-  border-radius: 10px;
-}
 
 /*# sourceMappingURL=style.css.map */
