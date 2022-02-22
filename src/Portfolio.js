@@ -1,11 +1,16 @@
 import './css/style.css'
-import Navbar from './components/navbar'
-import Hero from './components/hero'
+import {
+  Navbar,
+  Hero,
+  Footer
+} from './components'
+
 function Portfolio() {
   return (
     <div>
-	  <Navbar />
-	  <Hero />
+      <Navbar />
+      <Hero />
+      <Footer />
     </div>
   );
 }
