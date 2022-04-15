@@ -11,7 +11,7 @@ function Hamburger() {
 export default function Navbar() {
 	return (
 		<nav>
-			<h1>James Hall Web Development</h1>
+			<h1>James Hall</h1>
 			<Hamburger />
 		</nav>
 	);
