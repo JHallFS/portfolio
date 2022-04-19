@@ -1,7 +1,7 @@
 import './css/style.css'
 import {
   Navbar,
-  Hero,
+  MainPage,
   Footer
 } from './components'
 
@@ -9,7 +9,7 @@ function Portfolio() {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <MainPage />
       <Footer />
     </div>
   );
