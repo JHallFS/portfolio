@@ -10,8 +10,15 @@ body {
 
 nav {
 	background-color: $cadet;
+	padding: .5rem;
 }
 
 footer {
+	margin-top: 1rem;
+	padding: 1rem;
 	background-color: $cadet;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }

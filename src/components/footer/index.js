@@ -1,5 +1,7 @@
 export default function Footer() {
     return (
-        <footer>footer</footer>
+        <footer>
+            <p>All content on site made my myself</p>
+        </footer>
     );
 }

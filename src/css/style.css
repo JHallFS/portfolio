@@ -4,10 +4,17 @@ body {
 
 nav {
   background-color: #5a7684;
+  padding: 0.5rem;
 }
 
 footer {
+  margin-top: 1rem;
+  padding: 1rem;
   background-color: #5a7684;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
