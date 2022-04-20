@@ -1,8 +1,6 @@
-export default function Hero() {
+export default function About() {
 	return (
 		<section>
-			<p>Hello! My name is James, I live out of rainy Olympia Washington and my goal is to make a living programming and tinkering with websites and software for anything imaginable.</p>
-			<h1>About Me</h1>
 			<p>Growing up the son of a civil engineer, when I was old enough to start capturing interest in computers was in the early 2000s.
 			AutoCAD made every engineering firm have to buy(and dispose of) generations of hardware suitible to run that era's 3D imaging software.
 			I had easy access to older boxes with pentium 3! processors and got to work tinkering with the networking capabilities that they had.

@@ -1,9 +1,9 @@
 import Navbar from "./navbar";
-import MainPage from "./main-page";
+import Hero from "./hero";
 import Footer from "./footer";
 
 export {
     Navbar,
-    MainPage,
+    Hero,
     Footer
 }
