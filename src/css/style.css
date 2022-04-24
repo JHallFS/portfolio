@@ -3,8 +3,13 @@ body {
 }
 
 nav {
+  text-align: center;
   background-color: #5a7684;
   padding: 0.5rem;
+}
+
+.hero {
+  padding-bottom: 4rem;
 }
 
 footer {
