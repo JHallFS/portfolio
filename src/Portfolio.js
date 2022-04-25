@@ -1,3 +1,8 @@
+import {
+  Routes,
+  Route
+} from 'react-router-dom';
+
 import './css/style.css'
 import {
   Hero
@@ -10,7 +15,9 @@ function Portfolio() {
         <h1>James Hall</h1>
       </nav>
 
-      <Hero />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+      </Routes>
 
       <footer>
             <p>All content on site made my myself, educational modules and projects will be noted.</p>
