@@ -5,24 +5,24 @@ import {
 
 import './css/style.css'
 import {
-  Hero
-} from './components'
+  Homepage
+} from './pages'
 
 function Portfolio() {
   return (
-    <div>
-      <nav>
-        <h1>James Hall</h1>
-      </nav>
+    <main>
+      <header>
+
+      </header>
 
       <Routes>
-        <Route path="/" element={<Hero />} />
+        <Route path="/" element={<Homepage/>} />
       </Routes>
 
       <footer>
             <p>All content on site made my myself, educational modules and projects will be noted.</p>
       </footer>
-    </div>
+    </main>
   );
 }
 
