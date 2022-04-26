@@ -1,19 +1,19 @@
-import { Link } from 'react-router-dom';
-
 export default function Hero() {
 	return (
-		<section className="hero">
-			<h2>Computer enthusiast, aspiring programmer and developer.</h2>
+		<section className="homepage">
 
-			<div className="heronav">
-				<Link to="/about">About Me</Link>
-				<Link to="/skills">Experience and Projects</Link>
-				<Link to="/contact">Contact Me</Link>
-			</div>
-			<p>Hello! My name is James, I live out of rainy Olympia Washington and my goal is to make a living programming and tinkering with websites and software for anything imaginable.
-			Currently looking for work that is either remote or local to Pierce County, WA.</p>
+			<header id="header" className="grid">
+				<span className="bg-image" />
+				<h1>James Hall</h1>
+				<h2>computer enthusiast, aspiring programmer and developer</h2>
+				<p>
+					Hello! My name is James, I live out of rainy Olympia Washington and my goal is to make a living programming and tinkering with websites and software for anything imaginable.
+					Currently looking for work that is either remote or local to Pierce County, WA.
+				</p>
+			</header>
+			
 		</section>
-		
+
 	);
 };
 
