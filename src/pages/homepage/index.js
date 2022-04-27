@@ -1,19 +1,74 @@
+import { Link } from "react-router-dom";
+
 export default function Hero() {
 	return (
-		<section className="homepage">
+		<main className="homepage">
 
-			<header id="header" className="grid">
-				<span className="bg-image" />
+			<header id="homepage-header" className="grid">
+				<div className="header-image" style={{backgroundImage: "url('./public/header-img.jpg')"}} />
 				<h1>James Hall</h1>
-				<h2>computer enthusiast, aspiring programmer and developer</h2>
-				<p>
-					Hello! My name is James, I live out of rainy Olympia Washington and my goal is to make a living programming and tinkering with websites and software for anything imaginable.
-					Currently looking for work that is either remote or local to Pierce County, WA.
-				</p>
+				<h2>computer enthusiast, aspiring programmer and full stack developer</h2>
 			</header>
-			
-		</section>
 
+			<section id="section-a" className="grid">
+				<div className="content-wrap">
+					<h2 className="content-title">Welcome!</h2>
+					<p>
+						My name is James, I live out of rainy Olympia Washington and my goal is to make a living programming and tinkering with websites and software for anything imaginable.
+						Currently looking for work that is either remote or local to Pierce County, WA.
+					</p>
+					<Link to="/about" className="btn">About Me</Link>
+					<Link to="/contact" className="btn">Contact</Link>
+				</div>
+			</section>
+
+			<section id="section-b" className="grid">
+				<ul>
+					<li>
+						<div className="card">
+							<img src="./images/web-card.jpg" alt="website running responsively on mobile and desktop environments" />
+							<div className="card-content">
+								<h3 className="card-title">Front End Development</h3>
+								<p>
+									I have knowledge of base html, along with UI libraries such as React(as shown on this website!) that allow me to create and maintain websites and applications for your personal or buisness needs.
+								</p>
+								<Link to="/skills" className="btn">Learn More</Link>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div className="card">
+							<img src="./images/server-card.jpg" alt="" />
+							<div className="card-content">
+								<h3 className="card-title">Back End Development</h3>
+								<p>
+									I enjoy and have experience building back end servers and API endpoints for anything you need persistant data for, from setting up routing with Express or Flask, to maintaining SQL and noSQL databases.
+								</p>
+								<Link to="/skills" className="btn">Learn More</Link>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div className="card">
+							<img src="./images/code-card.jpg" alt="" />
+							<div className="card-content">
+								<h3 className="card-title">Programming and Beyond</h3>
+								<p>
+									Experience with home computing and networking have givin me the ability to run and maintain systems in person or on the cloud through AWS and google web services. You can find me working on expanding my knowledge of C, C#, Rust, and Python in my spare time.
+								</p>
+								<Link to="/skills" className="btn">Learn More</Link>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</section>
+
+			<footer id="homepage-footer" className="grid">
+				Website made by myself!
+			</footer>
+		</main>
 	);
 };
 
