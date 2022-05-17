@@ -5,7 +5,7 @@ export default function Hero() {
 		<main className="homepage">
 
 			<header id="homepage-header" className="grid">
-				<div className="header-image" style={{backgroundImage: "url('./public/header-img.jpg')"}} />
+				<div className="header-image" />
 				<h1>James Hall</h1>
 				<h2>computer enthusiast, aspiring programmer and full stack developer</h2>
 			</header>
