@@ -15,13 +15,9 @@ body {
     text-align: center;
 }
 
-img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 1em 0;
 }
@@ -31,8 +27,13 @@ p {
     padding: 1em 0;
 }
 
-.btn {
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
+.btn {
     display: inline-block;
     margin: .5em 0;
     background: $dark-button;
@@ -47,17 +48,58 @@ p {
     color: $dark-hover-text;
 }
 
-#homepage-header {
-    min-height: 400px;
+.simple-wrap {
+    padding: 0 1.5em
 }
 
-#homepage-header .header-image {
-    position: absolute;
-    background: #333 url('./header-img.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 400px;
-    z-index: -1;
+#homepage-header {
+    min-height: 400px;
+
+    .header-image {
+        position: absolute;
+        background: #333 url('./header-img.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    h1 {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+}
+
+#welcome-section {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+
+#skill-section {
+    padding: 2em 1em 1em;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+        li {
+            margin-bottom: 1em;
+            background: #fff;
+            color: #333;
+        }
+    }
+}
+
+#homepage-footer {
+    background: #000;
+    padding: 0.5em;
+}
+
+.card-content {
+    padding: 1.5em;
 }

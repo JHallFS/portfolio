@@ -4,14 +4,16 @@ export default function Hero() {
 	return (
 		<main className="homepage">
 
-			<header id="homepage-header" className="grid">
+			<header id="homepage-header">
 				<div className="header-image" />
-				<h1>James Hall</h1>
-				<h2>computer enthusiast, aspiring programmer and full stack developer</h2>
+				<div className="simple-wrap">
+					<h1>James Hall</h1>
+					<h2>computer enthusiast, aspiring programmer and full stack developer</h2>
+				</div>
 			</header>
 
-			<section id="section-a" className="grid">
-				<div className="content-wrap">
+			<section id="welcome-section">
+				<div className="simple-wrap">
 					<h2 className="content-title">Welcome!</h2>
 					<p>
 						My name is James, I live out of rainy Olympia Washington and my goal is to make a living programming and tinkering with websites and software for anything imaginable.
@@ -22,7 +24,7 @@ export default function Hero() {
 				</div>
 			</section>
 
-			<section id="section-b" className="grid">
+			<section id="skill-section">
 				<ul>
 					<li>
 						<div className="card">
@@ -65,7 +67,7 @@ export default function Hero() {
 				</ul>
 			</section>
 
-			<footer id="homepage-footer" className="grid">
+			<footer id="homepage-footer">
 				Website made by myself!
 			</footer>
 		</main>
