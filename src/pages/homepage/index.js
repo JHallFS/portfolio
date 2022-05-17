@@ -68,7 +68,8 @@ export default function Hero() {
 			</section>
 
 			<footer id="homepage-footer">
-				Website made by myself!
+				<h4>Website made by myself!</h4>
+				<img src="./images/GitHub-Mark-64px.png" alt="GitHub Icon" className="github"/>
 			</footer>
 		</main>
 	);
