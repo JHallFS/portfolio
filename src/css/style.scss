@@ -1,13 +1,129 @@
-$periwinkle-crayola: rgba(197, 209, 235, 1);
-$wild-blue-yonder: rgba(146, 175, 215, 1);
-$cadet: rgba(90, 118, 132, 1);
-$feldgrau: rgba(57, 91, 80, 1);
-$phthalo-green: rgba(31, 47, 22, 1);
+$dark-bg: #2E3440;
+$card-bg: #D8DEE9;
+$dark-text: #E5E9F0;
+$light-text: #4C566A;
+$dark-button: #3b4252;
+$dark-hover: #e5e9f0;
+$dark-hover-text: #434c5e;
+$dark-border: #d8dee9;
 
 body {
-	background-color: $periwinkle-crayola;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: $dark-bg;
+    color: $dark-text;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
 }
 
-nav {
-	background-color: $cadet;
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.btn {
+    display: inline-block;
+    margin: .5em 0;
+    background: $dark-button;
+    color: $dark-text;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 2px solid $dark-border;
+}
+
+.btn:hover {
+    background: $dark-hover;
+    color: $dark-hover-text;
+    border: 2px solid $dark-bg;
+}
+
+.simple-wrap {
+    padding: 0 1.5em
+}
+
+#homepage-header {
+    min-height: 400px;
+
+    .header-image {
+        position: absolute;
+        background: $dark-bg url('./header-img.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    h1 {
+        padding-top: 50px;
+        padding-bottom: 0;
+        font-family: "Copperplate", Times, serif;
+    }
+}
+
+#welcome-section {
+    background: $card-bg;
+    color: $light-text;
+    padding-bottom: 2em;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px $card-bg,
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+#skill-section {
+    padding: 2em 1em 1em;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-bottom: 1em;
+            background: $card-bg;
+            color: $light-text;
+            border: 1px solid $dark-bg;
+            border-radius: 1em;
+            box-shadow:
+                inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+                0 0 0 2px $card-bg,
+                0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        }
+    }
+}
+
+#homepage-footer {
+    display: flex;
+    justify-content: space-between;
+    background: $dark-button;
+    border-top: 2px solid $light-text;
+    padding: 1em;
+
+    .github {
+        height: 64px;
+        width: 64px;
+    }
+}
+
+.card-content {
+    padding: 1.5em;
 }
