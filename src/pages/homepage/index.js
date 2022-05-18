@@ -16,11 +16,7 @@ export default function Hero() {
 				<div className="simple-wrap">
 					<h2 className="content-title">Welcome!</h2>
 					<p>
-<<<<<<< HEAD
-						My name is James, I live out of rainy Seatl Washington and my goal is to make a living programming and tinkering with websites and software for anything imaginable.
-=======
 						My name is James, I live out of rainy Seattle Washington and my goal is to make a living programming and tinkering with websites and software for anything imaginable.
->>>>>>> feature/base-homepage
 						Currently looking for work that is either remote or local to Pierce County, WA.
 					</p>
 					<Link to="/about" className="btn">About Me</Link>
