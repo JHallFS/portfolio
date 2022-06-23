@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
-import { useSpring, animated } from "react-spring";
 
 export default function Hero() {
-	const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } });
 	return (
-			<animated.main className="homepage" style={props}>
+			<main className="homepage">
 
 				<header id="homepage-header">
 					<div className="header-image" />
@@ -73,7 +71,7 @@ export default function Hero() {
 					<h4>Website made by myself!</h4>
 					<img src="./images/GitHub-Mark-64px.png" alt="GitHub Icon" className="github" />
 				</footer>
-			</animated.main>
+			</main>
 	);
 };
 
