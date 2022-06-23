@@ -4,8 +4,7 @@ import { useSpring, animated } from "react-spring";
 export default function Hero() {
 	const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } });
 	return (
-		<animated.div style={props}>
-			<main className="homepage" >
+			<animated.main className="homepage" style={props}>
 
 				<header id="homepage-header">
 					<div className="header-image" />
@@ -20,7 +19,7 @@ export default function Hero() {
 						<h2 className="content-title">Welcome!</h2>
 						<p>
 							My name is James, I live out of rainy Seattle Washington and my goal is to make a living programming and tinkering with websites and software for anything imaginable.
-							Currently looking for work that is either remote or local to Pierce County, WA.
+							Currently looking for work that is either remote or local to King County, WA.
 						</p>
 						<Link to="/about" className="btn">About Me</Link>
 						<Link to="/contact" className="btn">Contact</Link>
@@ -74,8 +73,7 @@ export default function Hero() {
 					<h4>Website made by myself!</h4>
 					<img src="./images/GitHub-Mark-64px.png" alt="GitHub Icon" className="github" />
 				</footer>
-			</main>
-		</animated.div>
+			</animated.main>
 	);
 };
 

@@ -58,7 +58,7 @@ img {
 }
 
 #homepage-header {
-    min-height: 400px;
+    min-height: 300px;
 
     .header-image {
         position: absolute;
@@ -67,7 +67,7 @@ img {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 400px;
+        height: 300px;
         z-index: -1;
         opacity: 0.2;
     }
