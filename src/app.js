@@ -16,8 +16,14 @@ import {
 
 export default function App() {
     const props = useSpring({
-        to: { opacity: 1 },
-        from: { opacity: 0 }
+        from: {
+            opacity: 0,
+            marginTop: -500
+        },
+        to: {
+            opacity: 1,
+            marginTop: 0
+        }
     });
 
     return (
